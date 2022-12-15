@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #a6abad;
+}
+
+.main-content {
+  min-height: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  /* grid-template-rows: 20% 80%; */
+  grid-template-columns: 300px 700px;
+}
+
+.left-section {
+  background-color: #242531;
+}
+
+.right-section {
+  background-color: #f7f7f7;
+}
+
+.left-content {
+  padding: 1rem;
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 30%;
+  width: 60%;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+  color: #f7f7f7;
+}
+
+.designation {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  color: aqua;
+}
+
+.description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  color: #f7f7f7;
+}
+.social-media {
+  display: flex;
+}
+
+.social-media i {
+  text-decoration: none;
+  color: skyblue;
+  letter-spacing: 0.02px;
+  padding: 1.2rem;
+}
+.contact-info {
+  text-align: center;
+  margin-left: 40px;
+}
+.personal-detail {
+  color: skyblue;
+  position: relative;
+}
+li.a {
+  display: flex;
+  margin: 10px;
+  padding-left: 1rem;
+}
+.a i {
+  letter-spacing: 10px;
+}
+.skills-content {
+  padding: 30px;
+}
+.skills {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+.skill-name {
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+.progress-bar {
+  border: 1px solid white;
+  height: 4px;
+}
+
+.right-main-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.para {
+  padding: 0.5rem;
+}
+.box {
+  display: flex;
+}
+
+.box > .text {
+  padding: 0.5rem;
+}
+h6 {
+  margin-top: 10px;
+}
+.box .year {
+  min-width: 100px;
+  margin-top: 9px;
+}
+.projects {
+  padding: 0.5rem;
+}
+
+@media (max-width: 673px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    min-height: 1000px;
+  }
+}
